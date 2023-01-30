@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
   margin: 0;
   padding: 0;
 }
@@ -41,7 +40,7 @@ img {
   display: block;
   color: inherit;
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.7rem;
 }
 
 form input,
@@ -68,4 +67,47 @@ form button {
 
 .site-footer {
   padding: 2rem 0;
+}
+
+.skip-links{
+  list-style: none;
+  margin: 5;
+  padding: 0;
+}
+.skip-links a{
+  position:relative;
+  background-color: black;
+  color:white;
+  padding: .5em 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cont-skip{
+  margin-top: -19px;
+  margin-left: 240px;
+}
+
+.skip-links a:focus{
+  top: 0;
+}
+
+.banner{
+  margin-top: 15px;
+}
+
+.title{
+  font-size: 100px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.site-footer a{
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  position:inherit;
 }
